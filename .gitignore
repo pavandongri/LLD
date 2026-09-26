@@ -1,0 +1,8 @@
+# Compiled class files
+*.class
+
+# VS Code Java build output
+bin/
+
+# Node tooling (Prettier)
+node_modules/

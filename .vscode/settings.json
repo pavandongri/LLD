@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["."],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": ["lib/**/*.jar"],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "files.exclude": {
+        "bin": true
+    },
+    "[java]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

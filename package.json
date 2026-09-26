@@ -1,0 +1,16 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Low level design patterns in Java",
+  "scripts": {
+    "format": "prettier --write \"**/*.java\"",
+    "format:check": "prettier --check \"**/*.java\"",
+    "lint:java": "javac -Xlint:all -Werror -d bin $(find . -name '*.java' -not -path './node_modules/*' -not -path './bin/*')",
+    "lint": "npm run lint:java && npm run format:check"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "prettier-plugin-java": "^2.10.4"
+  }
+}
